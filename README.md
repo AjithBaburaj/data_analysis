@@ -17,13 +17,15 @@ dateCrawled | name | seller | offerType | price | abtest | vehicleType | yearOfR
 2016-03-14 12:52:21 | Jeep_Grand_Cherokee_"Overland" | privat | Angebot | 9800 | test | suv | 2004 | automatik | 163 | grand | 125000 | 8 | diesel | jeep | nan | 2016-03-14 00:00:00 | 0 | 90480 | 2016-04-05 12:47:46
 ***
 ### More Info
-__*The main folder contains 9 folders*__.
 
-  + Folders from Analysis1 - Analysis5 contain the **iPython Notebook**, **python scripts** along with the **Plots** for that analysis.
-  + Folder for **[shell scripts](ShellScripts)** which automate the creation of files structures and splitting the data as mentioned above.
-  + Datapreparation folder contains the **[Datapreparation iPython Script](DataPreparation/DataPreparation.py)** for cleaning of data.
-  + CleanData folder contains the clean dataset and subsets of data as per the **[file structure](CleanData/DataForAnalysis)**.
-  + RawData folder which contains the **[raw dataset](RawData)**.  <br/>
+__*The main folder contains 9 folders.*__
+
+  + Folders from Analysis1 to Analysis5 contain the **iPython Notebook**, **Python scripts**, along with the **plots** for that analysis.
+  + A folder for **[shell scripts](ShellScripts)**, which automate the creation of file structures and the splitting of data as mentioned above.
+  + The Datapreparation folder contains the **[Datapreparation iPython Script](DataPreparation/DataPreparation.py)** for cleaning the data.
+  + The CleanData folder contains the clean dataset and subsets of data as per the **[file structure](CleanData/DataForAnalysis)**.
+  + The RawData folder contains the **[raw dataset](RawData)**.
+
  
 ***
 ### Analysis 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Analysis1.py](Analysis1/Analysis1.py)&emsp;[Analysis1.ipynb](Analysis1/Analysis1.ipynb)&emsp;[Plots](Analysis1/Plots)
