@@ -1,4 +1,4 @@
-# Data Analysis of Used Car Database &nbsp;&nbsp;[![license](https://img.shields.io/github/license/ajaymache/travis-ci-with-github.svg)](https://opensource.org/licenses/MIT)
+# Data Analysis of Used Car Database &nbsp;&nbsp;[![license](https://img.shields.io/github/license/ajaymache/travis-ci-with-github.svg)]
 
 Data Analysis, sometimes referred to as **Exploratory Data Analysis (EDA)**, is one of the core components of data science. It is also the part on which data scientists, data engineers, and data analysts spend the majority of their time, making it extremely important in the field of data science. This repository demonstrates some common exploratory data analysis methods and techniques using Python. For the purpose of illustration, the **[Used Car Database](https://www.kaggle.com/orgesleka/used-cars-database)** dataset has been taken from Kaggle since it is an ideal dataset for performing **EDA** and taking a step towards the most amazing and interesting field of data science. Good luck with your _**EDA**_ on the _**Used Car Database**_ dataset.
 
