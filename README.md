@@ -1,10 +1,13 @@
-# Data analysis of used car database &nbsp;&nbsp;[![license](https://img.shields.io/github/license/ajaymache/travis-ci-with-github.svg)](https://opensource.org/licenses/MIT)
-Data Analysis or sometimes referred to as **exploratory data analysis (EDA)** is one of the core components of data science. It is also the part on which data scientists, data engineers and data analysts spend their majority of the time which makes it extremely important in the field of data science. This repository demonstartes some common exploratory data analysis methods and techniques using python. For purpose of illustration the **[used car database](https://www.kaggle.com/orgesleka/used-cars-database)** dataset has been taken from kaggle since it is one of the ideal dataset for performing **EDA** and taking a step towards the most amazing and interesting field of data science. Good luck with your _**EDA**_ on the _**used car database**_ dataset.
+# Data Analysis of Used Car Database &nbsp;&nbsp;[![license](https://img.shields.io/github/license/ajaymache/travis-ci-with-github.svg)](https://opensource.org/licenses/MIT)
+
+Data Analysis, sometimes referred to as **Exploratory Data Analysis (EDA)**, is one of the core components of data science. It is also the part on which data scientists, data engineers, and data analysts spend the majority of their time, making it extremely important in the field of data science. This repository demonstrates some common exploratory data analysis methods and techniques using Python. For the purpose of illustration, the **[Used Car Database](https://www.kaggle.com/orgesleka/used-cars-database)** dataset has been taken from Kaggle since it is an ideal dataset for performing **EDA** and taking a step towards the most amazing and interesting field of data science. Good luck with your _**EDA**_ on the _**Used Car Database**_ dataset.
+
 ### DataSet Overview
-  + The dataset is taken from **kaggle** and contains details of the **used cars in germany** which are on sale on **ebay**.
-  + The dataset is not clean and hence a lot of data cleaning is carried out. For e.g. prices where too high which are      replaced by the median and outliers are removed accordingly. 
-  + Also vehicles whose registration year was **_greater than 2016_ and _less than 1890_** were removed from the dataset as this data is inconsistense and would yield incorrect results.
-  + The dataset is cleaned and stored in a **CleanData** folder which contains the entire cleaned dataset named as **[cleaned_autos.csv](CleanData/CleanedDataSet)** and another folder named **[DataForAnalysis](CleanData/DataForAnalysis)** containing files structures containing subsets of the cleaned dataset based on brand of the vehicles and vehicle types.  
+  + The dataset is taken from **Kaggle** and contains details of **used cars in Germany** that are on sale on **eBay**.
+  + The dataset is not clean, and hence a lot of data cleaning is carried out. For example, prices were too high, which are replaced by the median, and outliers are removed accordingly.
+  + Also, vehicles whose registration year was **_greater than 2016_ and _less than 1890_** were removed from the dataset as this data is inconsistent and would yield incorrect results.
+  + The dataset is cleaned and stored in a **CleanData** folder, which contains the entire cleaned dataset named **[cleaned_autos.csv](CleanData/CleanedDataSet)** and another folder named **[DataForAnalysis](CleanData/DataForAnalysis)** containing file structures containing subsets of the cleaned dataset based on the brand of the vehicles and vehicle types.
+
   
 ### Sample Dataset
 dateCrawled | name | seller | offerType | price | abtest | vehicleType | yearOfRegistration | gearbox | powerPS | model | kilometer | monthOfRegistration | fuelType | brand | notRepairedDamage | dateCreated | nrOfPictures | postalCode | lastSeen
