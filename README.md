@@ -29,17 +29,18 @@ __*The main folder contains 9 folders.*__
  
 ***
 ### Analysis 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Analysis1.py](Analysis1/Analysis1.py)&emsp;[Analysis1.ipynb](Analysis1/Analysis1.ipynb)&emsp;[Plots](Analysis1/Plots)
-+ This analysis gives the distribution of prices of vehicles based on vehicles types.
-+ Output before the cleaning the data is shown below in order to highlight the importance of cleaning this dataset.
++ This analysis gives the distribution of prices of vehicles based on vehicle types.
++ The output before cleaning the data is shown below to highlight the importance of cleaning this dataset.
 + **Histogram** and **KDE** before performing data cleaning.
-+ It is clearly visible that the dataset has **many outliers** and **inconsistent data** as year of registration **cannot be more than 2016 and less than 1890**.
++ It is clearly visible that the dataset has **many outliers** and **inconsistent data** as the year of registration **cannot be more than 2016 and less than 1890**.
 
 ![alt text](DataPreparation/Plots/vehicle-distribution.png "Logo Title Text 1")
 
-> Boxplot of prices of vehicles based on the type of vehicles after cleaning the dataset. Based on the vehicle type how the prices vary is depictable from the boxplot. low, 25th, 50th(Median), 75th percentile, high can be estimated from this boxplot.
+> Boxplot of prices of vehicles based on the type of vehicles after cleaning the dataset. Based on the vehicle type, how the prices vary is depicted from the boxplot. Low, 25th, 50th (Median), 75th percentile, high can be estimated from this boxplot.
 
 ![alt text](Analysis1/Plots/price-vehicleType-boxplot.png "Logo Title Text 1")
 ***
+
 ### Analysis 2 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Analysis2.py](Analysis2/Analysis2.py)&emsp;[Analysis2.ipynb](Analysis2/Analysis2.ipynb)&emsp;[Plots](Analysis2/Plots)
 
 + This analysis gives the number of cars which are available for sale in the entire dataset based on a particular brand. 
